@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateApp", "TemplateApp\TemplateApp.csproj", "{2E28095C-4ECB-44C5-96FF-E95FE910319A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateApp", "TemplateApp\TemplateApp.csproj", "{2E28095C-4ECB-44C5-96FF-E95FE910319A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01-SonarSweep", "Day01-SonarSweep\Day01-SonarSweep.csproj", "{EDC56A71-138F-4798-A454-04288C7B49AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01-3MeasurementSlidingWindow", "Day01-3MeasurementSlidingWindow\Day01-3MeasurementSlidingWindow.csproj", "{CFF45A6F-8FB0-4A71-8D05-0574D0C51ED9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2E28095C-4ECB-44C5-96FF-E95FE910319A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E28095C-4ECB-44C5-96FF-E95FE910319A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E28095C-4ECB-44C5-96FF-E95FE910319A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC56A71-138F-4798-A454-04288C7B49AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC56A71-138F-4798-A454-04288C7B49AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC56A71-138F-4798-A454-04288C7B49AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC56A71-138F-4798-A454-04288C7B49AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF45A6F-8FB0-4A71-8D05-0574D0C51ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF45A6F-8FB0-4A71-8D05-0574D0C51ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF45A6F-8FB0-4A71-8D05-0574D0C51ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF45A6F-8FB0-4A71-8D05-0574D0C51ED9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
