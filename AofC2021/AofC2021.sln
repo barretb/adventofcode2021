@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day01-SonarSweep", "Day01-S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day01-3MeasurementSlidingWindow", "Day01-3MeasurementSlidingWindow\Day01-3MeasurementSlidingWindow.csproj", "{CFF45A6F-8FB0-4A71-8D05-0574D0C51ED9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02-Dive", "Day2-Dive\Day02-Dive.csproj", "{F8856030-06F8-4C7D-8348-AC8986E8EA3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day02-Dive", "Day2-Dive\Day02-Dive.csproj", "{F8856030-06F8-4C7D-8348-AC8986E8EA3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02-AddingAim", "Day02-AddingAim\Day02-AddingAim.csproj", "{EC871BF9-D39D-45C8-BBD2-CD022E9577E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day02-AddingAim", "Day02-AddingAim\Day02-AddingAim.csproj", "{EC871BF9-D39D-45C8-BBD2-CD022E9577E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03-Puzzle1-BinaryDiagnostic", "Day03-Puzzle1-BinaryDiagnostic\Day03-Puzzle1-BinaryDiagnostic.csproj", "{2BEF02A7-39FB-48FE-8430-E6166C93673F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03-Puzzle2-LifeSupport", "Day03-Puzzle2-LifeSupport\Day03-Puzzle2-LifeSupport.csproj", "{2CC81A6F-FC2C-44B0-8CEC-62CE8BC8BEA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{EC871BF9-D39D-45C8-BBD2-CD022E9577E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC871BF9-D39D-45C8-BBD2-CD022E9577E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC871BF9-D39D-45C8-BBD2-CD022E9577E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BEF02A7-39FB-48FE-8430-E6166C93673F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEF02A7-39FB-48FE-8430-E6166C93673F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BEF02A7-39FB-48FE-8430-E6166C93673F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BEF02A7-39FB-48FE-8430-E6166C93673F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC81A6F-FC2C-44B0-8CEC-62CE8BC8BEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC81A6F-FC2C-44B0-8CEC-62CE8BC8BEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC81A6F-FC2C-44B0-8CEC-62CE8BC8BEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC81A6F-FC2C-44B0-8CEC-62CE8BC8BEA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
