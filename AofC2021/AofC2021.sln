@@ -23,9 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day04-Puzzle2-LetTheSquidWi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day05-Puzzle1-HydrothermalVenture", "Day05-Puzzle1-HydrothermalVenture\Day05-Puzzle1-HydrothermalVenture.csproj", "{8EA49D05-561D-41E9-A594-91524DCD3CD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06-Puzzle1-LanternFish", "Day06-Puzzle1\Day06-Puzzle1-LanternFish.csproj", "{DE6DEF07-C9D9-453B-9B7F-BC2B944D4D30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day06-Puzzle1-LanternFish", "Day06-Puzzle1\Day06-Puzzle1-LanternFish.csproj", "{DE6DEF07-C9D9-453B-9B7F-BC2B944D4D30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06-Puzzle2-256Days", "Day06-Puzzle2-256Days\Day06-Puzzle2-256Days.csproj", "{9D8D8E60-B44D-4AD8-B97B-FA4B89B18CEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day06-Puzzle2-256Days", "Day06-Puzzle2-256Days\Day06-Puzzle2-256Days.csproj", "{9D8D8E60-B44D-4AD8-B97B-FA4B89B18CEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07-Puzzle1-TreacheryOfWhales", "Day07-Puzzle1-TreacheryOfWhales\Day07-Puzzle1-TreacheryOfWhales.csproj", "{8050E8DA-CCFA-43E2-9616-DB0F1E3321B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07-Puzzle2-CrabsCantCrab", "Day07-Puzzle2-CrabsCantCrab\Day07-Puzzle2-CrabsCantCrab.csproj", "{7A34E5F0-50C1-4ED3-875E-A2526A205964}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{9D8D8E60-B44D-4AD8-B97B-FA4B89B18CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D8D8E60-B44D-4AD8-B97B-FA4B89B18CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D8D8E60-B44D-4AD8-B97B-FA4B89B18CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8050E8DA-CCFA-43E2-9616-DB0F1E3321B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8050E8DA-CCFA-43E2-9616-DB0F1E3321B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8050E8DA-CCFA-43E2-9616-DB0F1E3321B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8050E8DA-CCFA-43E2-9616-DB0F1E3321B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A34E5F0-50C1-4ED3-875E-A2526A205964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A34E5F0-50C1-4ED3-875E-A2526A205964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A34E5F0-50C1-4ED3-875E-A2526A205964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A34E5F0-50C1-4ED3-875E-A2526A205964}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
