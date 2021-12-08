@@ -27,9 +27,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day06-Puzzle1-LanternFish",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day06-Puzzle2-256Days", "Day06-Puzzle2-256Days\Day06-Puzzle2-256Days.csproj", "{9D8D8E60-B44D-4AD8-B97B-FA4B89B18CEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07-Puzzle1-TreacheryOfWhales", "Day07-Puzzle1-TreacheryOfWhales\Day07-Puzzle1-TreacheryOfWhales.csproj", "{8050E8DA-CCFA-43E2-9616-DB0F1E3321B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day07-Puzzle1-TreacheryOfWhales", "Day07-Puzzle1-TreacheryOfWhales\Day07-Puzzle1-TreacheryOfWhales.csproj", "{8050E8DA-CCFA-43E2-9616-DB0F1E3321B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07-Puzzle2-CrabsCantCrab", "Day07-Puzzle2-CrabsCantCrab\Day07-Puzzle2-CrabsCantCrab.csproj", "{7A34E5F0-50C1-4ED3-875E-A2526A205964}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day07-Puzzle2-CrabsCantCrab", "Day07-Puzzle2-CrabsCantCrab\Day07-Puzzle2-CrabsCantCrab.csproj", "{7A34E5F0-50C1-4ED3-875E-A2526A205964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day08-Puzzle1-7SegmentDisplays", "Day08-Puzzle1-7SegmentDisplays\Day08-Puzzle1-7SegmentDisplays.csproj", "{5E514E7B-80A2-4D32-A140-D619B007A10B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day08-Puzzle2-FiguringOutTheRest", "Day08-Puzzle2-FiguringOutTheRest\Day08-Puzzle2-FiguringOutTheRest.csproj", "{2CE398B0-1A37-4E20-B51B-E2ED4C808862}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{7A34E5F0-50C1-4ED3-875E-A2526A205964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A34E5F0-50C1-4ED3-875E-A2526A205964}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A34E5F0-50C1-4ED3-875E-A2526A205964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E514E7B-80A2-4D32-A140-D619B007A10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E514E7B-80A2-4D32-A140-D619B007A10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E514E7B-80A2-4D32-A140-D619B007A10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E514E7B-80A2-4D32-A140-D619B007A10B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE398B0-1A37-4E20-B51B-E2ED4C808862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE398B0-1A37-4E20-B51B-E2ED4C808862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE398B0-1A37-4E20-B51B-E2ED4C808862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE398B0-1A37-4E20-B51B-E2ED4C808862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
