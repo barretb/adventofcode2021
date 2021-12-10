@@ -35,9 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day08-Puzzle1-7SegmentDispl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day08-Puzzle2-FiguringOutTheRest", "Day08-Puzzle2-FiguringOutTheRest\Day08-Puzzle2-FiguringOutTheRest.csproj", "{2CE398B0-1A37-4E20-B51B-E2ED4C808862}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day09-Puzzle1-LowPoints", "Day09-Puzzle1-LowPoints\Day09-Puzzle1-LowPoints.csproj", "{442B5801-19E1-47AA-9C41-477B429B88F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day09-Puzzle1-LowPoints", "Day09-Puzzle1-LowPoints\Day09-Puzzle1-LowPoints.csproj", "{442B5801-19E1-47AA-9C41-477B429B88F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day09-Puzzle2-LargestBasins", "Day09-Puzzle2-LargestBasins\Day09-Puzzle2-LargestBasins.csproj", "{0FF877DF-8F8F-4EFE-B68F-BD85B1B8DA44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day09-Puzzle2-LargestBasins", "Day09-Puzzle2-LargestBasins\Day09-Puzzle2-LargestBasins.csproj", "{0FF877DF-8F8F-4EFE-B68F-BD85B1B8DA44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day10-Puzzle1-NavigationSystem", "Day10-Puzzle1-NavigationSystem\Day10-Puzzle1-NavigationSystem.csproj", "{B64724C8-B8CD-446C-A4A3-960D80D96928}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{0FF877DF-8F8F-4EFE-B68F-BD85B1B8DA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FF877DF-8F8F-4EFE-B68F-BD85B1B8DA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FF877DF-8F8F-4EFE-B68F-BD85B1B8DA44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B64724C8-B8CD-446C-A4A3-960D80D96928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64724C8-B8CD-446C-A4A3-960D80D96928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64724C8-B8CD-446C-A4A3-960D80D96928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64724C8-B8CD-446C-A4A3-960D80D96928}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
