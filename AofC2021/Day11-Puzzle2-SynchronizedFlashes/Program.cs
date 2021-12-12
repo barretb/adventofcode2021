@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Advent of Code 2021");
-Console.WriteLine("Day 11 - Puzzle 1");
+Console.WriteLine("Day 11 - Puzzle 2");
 
 //Solution logic goes here
 
@@ -17,9 +17,13 @@ for (int a = 0; a < 10; a++)
     }
 }
 
-//now run through 100 steps
-for (var z = 0; z < 100; z++)
+//Now determine what step synchronization occurs on
+var step = 0;
+var allSynched = false;
+
+while (!allSynched)
 {
+    step++;
     //increase every position first
     for (int a = 0; a < 10; a++)
     {
@@ -47,14 +51,30 @@ for (var z = 0; z < 100; z++)
         }
     }
 
-    //now reset the -1 to 0 before the next step
+    //check if all synched
+    allSynched = true;
     for (int a = 0; a < 10; a++)
     {
         for (int b = 0; b < 10; b++)
         {
-            if (octopi[a, b] == -1)
+            if (octopi[a, b] > -1)
             {
-                octopi[a, b] = 0;
+                allSynched = false;
+            }
+        }
+    }
+
+    if (!allSynched)
+    {
+        //now reset the -1 to 0 before the next step
+        for (int a = 0; a < 10; a++)
+        {
+            for (int b = 0; b < 10; b++)
+            {
+                if (octopi[a, b] == -1)
+                {
+                    octopi[a, b] = 0;
+                }
             }
         }
     }
@@ -72,7 +92,7 @@ for (var z = 0; z < 100; z++)
     Console.WriteLine();
 }
 
-Console.WriteLine($"Total flashes after 100 steps: {flashes}");
+Console.WriteLine($"Step of synchronization: {step}");
 
 //Stop and wait for enter before exiting
 Console.ReadLine();
