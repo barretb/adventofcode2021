@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day10-Puzzle2-FixTheIncompl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day11-Puzzle1-DumboOctopus", "Day11-Puzzle1-DumboOctopus\Day11-Puzzle1-DumboOctopus.csproj", "{028979DE-347C-4B02-9964-EE5EC0002A2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day11-Puzzle2-SynchronizedFlashes", "Day11-Puzzle2-SynchronizedFlashes\Day11-Puzzle2-SynchronizedFlashes.csproj", "{5994C119-11F6-40FD-97D3-E78B72F53DD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day11-Puzzle2-SynchronizedFlashes", "Day11-Puzzle2-SynchronizedFlashes\Day11-Puzzle2-SynchronizedFlashes.csproj", "{5994C119-11F6-40FD-97D3-E78B72F53DD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day12-Puzzle1-PassagePathing", "Day12-Puzzle1-PassagePathing\Day12-Puzzle1-PassagePathing.csproj", "{85D249F7-7DC2-4E49-8476-0DAAD67E8E24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{5994C119-11F6-40FD-97D3-E78B72F53DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5994C119-11F6-40FD-97D3-E78B72F53DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5994C119-11F6-40FD-97D3-E78B72F53DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D249F7-7DC2-4E49-8476-0DAAD67E8E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D249F7-7DC2-4E49-8476-0DAAD67E8E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D249F7-7DC2-4E49-8476-0DAAD67E8E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D249F7-7DC2-4E49-8476-0DAAD67E8E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
