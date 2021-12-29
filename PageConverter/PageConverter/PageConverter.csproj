@@ -17,4 +17,8 @@
     <Folder Include="bin\Debug\net6.0\icons\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.16.1" />
+  </ItemGroup>
+
 </Project>
